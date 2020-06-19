@@ -26,8 +26,8 @@
     "docker:run": "docker run -p 3000:3000 -d hedronnc-api",
     "migrate": "node ./dist/migrate",
     "openapi-spec": "node ./dist/openapi-spec",
-    "dev": "npm run build && npm run start",
-    "start": "node -r source-map-support/register .",
+    "dev": "npm run build && node -r source-map-support/register .",
+    "start": "node .",
     "clean": "lb-clean dist *.tsbuildinfo .eslintcache"
   },
   "repository": {
