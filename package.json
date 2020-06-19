@@ -1,7 +1,7 @@
 {
   "name": "hedronnc-api",
   "version": "1.0.0",
-  "description": "Backend API",
+  "description": "Hedron NewCo Backend API",
   "keywords": [
     "loopback-application",
     "loopback"
